@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hearts of Iron IV – Infoseite</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Hero-Banner */
+    .hero {
+      background: #1a1a1a;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      margin-bottom: 40px;
+      
+    }
+
+    .hero h1 {
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    /* Navigation */
+    header {
+      background: #e6e6e6;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ccc;
+    }
+
+    header nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    /* Feature-Karten */
+    .feature-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature-box h3 {
+      margin-bottom: 10px;
+    }
+
+    /* Trenner */
+    .section-title {
+      text-align: center;
+      margin: 50px 0 20px;
+      letter-spacing: 2px;
+      font-size: 22px;
+      color: #444;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      margin-top: 40px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- HERO-BANNER -->
+
+<div class="hero">
+  <h1 style="letter-spacing:2px;">
+  <a href="https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/" 
+     target="_blank" 
+     style="color:white; text-decoration:none;">
+    Hearts of Iron IV
+  </a>
+  </h1>
+  <p>Strategie. Geschichte. Entscheidungen, die die Welt formen.</p>
+  <a>Link zum Shop im Titel</a>
+</div>
+ 
+
+<!-- HEADER -->
+<header>
+  <div><strong>HOI4 Infoseite</strong></div>
+  <nav>
+    <a href="index.html">Startseite</a>
+    <a href="allgemeine_infos.html">Allgemeine Infos</a>
+    <a href="laender.html">Länder</a>
+    <a href="entwickler.html">Entwickler</a>
+    <a href="impressum.html">Impressum</a>
+  </nav>
+</header>
+
+<!-- HAUPTBEREICH: Karussell + Text -->
+<div style="display:flex; gap:30px; max-width:1200px; margin:40px auto;">
+
+  <!-- Karussell -->
+  <div style="flex:1;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="image/hoi bild 1.jpg" class="d-block w-100" style="height:400px; object-fit:cover; border-radius:10px;">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/hoi bild 2.jpg" class="d-block w-100" style="height:400px; object-fit:cover; border-radius:10px;">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/hoi bild 3.jpg" class="d-block w-100" style="height:400px; object-fit:cover; border-radius:10px;">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/hoi bild 4.jpg" class="d-block w-100" style="height:400px; object-fit:cover; border-radius:10px;">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/hoi bild 5.jpg" class="d-block w-100" style="height:400px; object-fit:cover; border-radius:10px;">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/hoi bild 6.jpg" class="d-block w-100" style="height:400px; object-fit:cover; border-radius:10px;">
+        </div>
+
+
+
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Textblock -->
+  <div style="flex:1;">
+    <h2>Über das Spiel</h2>
+    <p>
+      <strong>Hearts of Iron IV</strong> ist ein globales Strategiespiel, das dich mitten in die politischen,
+      wirtschaftlichen und militärischen Entscheidungen der 1930er- und 1940er-Jahre führt.
+    </p>
+    <p>
+      Du übernimmst die Kontrolle über eine Nation deiner Wahl und formst deren Zukunft durch Diplomatie,
+      Forschung, Industrie und Kriegführung. Jede Entscheidung verändert den Verlauf der Geschichte.
+    </p>
+    <p>
+      Ob Weltmacht oder Kleinstaat – HOI4 bietet unzählige Wege, den Zweiten Weltkrieg neu zu schreiben.
+    </p>
+  </div>
+
+</div>
+
+<!-- FEATURE-KARTEN -->
+<h2 class="section-title">• Spielmechaniken •</h2>
+
+<div style="display:flex; gap:20px; max-width:1200px; margin:0 auto 60px;">
+
+  <div class="feature-box" style="flex:1;">
+    <h3>Diplomatie</h3>
+    <p>Schließe Bündnisse, beeinflusse Nationen und forme die Weltordnung.</p>
+  </div>
+
+  <div class="feature-box" style="flex:1;">
+    <h3>Wirtschaft</h3>
+    <p>Baue Industrie auf, sichere Ressourcen und entwickle neue Technologien.</p>
+  </div>
+
+  <div class="feature-box" style="flex:1;">
+    <h3>Militär</h3>
+    <p>Führe Armeen, Flotten und Luftstreitkräfte zum Sieg.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 HOI4 Infoseite
+</footer>
+
+
+</body>
+</html>
